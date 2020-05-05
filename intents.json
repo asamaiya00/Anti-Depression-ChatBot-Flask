@@ -1,0 +1,72 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hey","hi","Hi", "Is anyone there?", "Hello", "Good day","hiii"],
+         "responses": ["Hello!, How are you feeling today?", "Good to see you again!", "Hi there, how can I help?",
+                       "Hey!! How are you?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Good day friend!","tata","bye","bye-bye"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "See you later","bye-bye"],
+         "context_set": ""
+        },
+        {"tag": "question",
+         "patterns": ["Whats up","how are you?","how do you feel"],
+         "responses": ["I am good. Thank you","I am fine. Thank you","I feel awesome talking to you :)"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 21 years old!", "21 years young!"],
+         "context_set": ""
+        },
+        {"tag": "doing",
+         "patterns": ["What are you doing?","What are you upto"],
+         "responses": ["Talking to you.", "Talking to a special friend :)"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?","who are you","name"],
+         "responses": ["You can call me Animesh.", "I'm Animesh!","People call me Animesh","Animesh. My name is Animesh."],
+         "context_set": ""
+        },
+        {"tag": "fine",
+         "patterns": ["I am feeling good","I am good", "I am fine", "I am feeling okay","I am okay","I am better now",
+                      "I feel good"],
+         "responses": ["Happy for you! :)", "Things are getting better!","See, I told you Everything is going to be okay..!!"],
+         "context_set": ""
+        },
+        {"tag": "available",
+         "patterns": ["i want to talk to someone","when are you guys open", "what are your hours",
+                      "are you busy","can you help me","Are you available?",
+                      "free","busy","can we talk","You there?","Someone there?","are you free now"],
+         "responses": ["I'm available just for you 24x7!","I am just a click away ;)","I am always available"],
+         "context_set": ""
+        },
+
+        {"tag": "person-problem",
+         "patterns": ["I had a break up", "She left me.", "He left me","She cheated on me.",
+                      "He cheated on me","My boss is troubling me","My relationship is not going good"],
+         "responses": ["Hey! Its okay. They dont deserve you","You don't need them. You are good without them",
+                       "You will get someone better.","Give it time,things will get better","Don't think about them",
+                       "You should try to make them understand your point.","Relax buddy, don't think about it"],
+         "context_set": ""
+        },
+
+        {"tag": "exam",
+         "patterns": ["I got fired","I did not get selected","I failed in my exam","fail","I got rejected",
+                      "I got failed in my exams","I got very bad marks in my exam","My result was bad","I did not pass"],
+         "responses": ["It is totally okay to fail. Give it a second chance :)",
+                       "It is not as big as you think.You should try again with better preparation.",
+                       "Hard luck friend! Try again..."],
+         "context_set": ""
+        },
+        {"tag": "negative_feel",
+         "patterns": ["please help me","die","suicide","I am not feeling good","I am in trouble","I feel bad", "I feel depressed","I have anxiety",
+                      "I want to die","i dont feel good","I feel suicidal","i want to commit suicide","I need help","kill someone"],
+         "responses": ["I am all ears. Tell me","Hey! Whats wrong?","What happened buddy?","You can tell me what happened.",
+                       "You should share with me. Something happened?","Everything is going to be okay. Relax buddy"],
+         "context_set": ""
+        }
+   ]
+}
